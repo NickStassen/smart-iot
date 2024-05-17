@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "smart-iot"
+version = "0.1.0"
+description = ""
+authors = ["Nick Stassen"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+scipy = "^1.13.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
